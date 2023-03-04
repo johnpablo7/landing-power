@@ -14,7 +14,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between md:justify-start w-full py-4 px-2 h-[10vh] z-50">
+    <header className="flex items-center justify-between md:justify-start w-full p-4 2xl:py-4 2xl:px-2 h-[10vh] z-50">
       <div className="md:w-1/6 flex items-center justify-center">
         <NavLink to="/" className="cursor-pointer">
           <LogoIcon />
@@ -23,7 +23,7 @@ export const Header = () => {
 
       <nav
         className={clsx(
-          `fixed flex-1 flex flex-col items-center justify-center bg-white w-[80%] h-full top-0 gap-14 2xl:gap-16 transition-all duration-500`,
+          `fixed flex-1 flex flex-col items-center justify-center bg-white w-[80%] h-full top-0 gap-14 2xl:gap-16 transition-all duration-500 z-50`,
           showMobileMenu ? "left-0" : "-left-full",
           // Destok
           `md:left-0 md:static md:flex-row md:w-full`
@@ -41,7 +41,7 @@ export const Header = () => {
         ))}
       </nav>
       <button onClick={toggleMenu} className="md:hidden text-2xl p-2">
-        {showMobileMenu ? <RiMenu3Fill /> : <RiCloseLine />}
+        {showMobileMenu ? <RiCloseLine /> : <RiMenu3Fill />}
       </button>
     </header>
   );
