@@ -11,7 +11,6 @@ export const App = () => {
         <Route path="/" element={<AuthLayout />}>
           {/* Pages */}
           <Route path="" element={<Home />} />
-
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

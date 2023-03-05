@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className="min-h-[90vh] w-full grid grid-cols-1 lg:grid-cols-8">
       {/* Information */}
-      <div className="md:col-span-5 flex items-center justify-center p-4 2xl:pl-28">
+      <div className="md:col-span-5 flex items-center justify-center px-4 py-8 md:px-8 2xl:pl-28 2xl:pr-0">
         <div className="flex flex-col gap-4 2xl:gap-4">
           <h1 className="text-[#1E1F4B] text-5xl leading-[3rem] 2xl:text-8xl 2xl:leading-[10rem] font-bold mb-5">
             Web Design Impactful Digital
@@ -20,7 +20,7 @@ export const Hero = () => {
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
             </span>
           </h1>
-          <p className="text-lg 2xl:text-2xl text-[#2E3E5C] 2xl:leading-[3rem] 2xl:w-[640px] mb-5">
+          <p className="text-xl 2xl:text-2xl text-[#2E3E5C] 2xl:leading-[3rem] 2xl:w-[640px] mb-5">
             Help find solutions with intitutive and in accordance with client
             business goals. we provide a high-quality services.
           </p>
@@ -36,7 +36,7 @@ export const Hero = () => {
         </div>
       </div>
       {/* Image */}
-      <div className="md:col-span-3 flex items-center justify-center relative p-4 2xl:p-0">
+      <div className="md:col-span-3 flex items-center justify-center relative px-4 py-16 2xl:p-0">
         {/* Content image */}
         <div>
           <img
@@ -44,7 +44,7 @@ export const Hero = () => {
             alt="hero"
             className="w-[331px] h-[331px] md:w-[431px] md:h-[431px] 2xl:w-[590px] 2xl:h-[631px] object-cover object-center 2xl:-mt-40"
           />
-          <div className="relative bg-white shadow-xl rounded-lg px-8 py-4 flex flex-col justify-center gap-2 max-w-[300px] mx-auto -mt-24">
+          <div className="relative bg-white shadow-xl rounded-lg p-2 md:px-8 md:py-4 flex flex-col justify-center gap-1 md:gap-2 max-w-[200px] md:max-w-[300px] mx-auto -mt-24">
             <div className="flex items-center pl-4">
               {employees.map((employee) => (
                 <img
@@ -55,13 +55,13 @@ export const Hero = () => {
                 />
               ))}
             </div>
-            <h2 className="text-2xl font-bold text-[#1E1F4B] tracking-[2px]">
+            <h2 className="text-lg md:text-2xl font-bold text-[#1E1F4B] tracking-[2px]">
               120+ Employees
             </h2>
-            <div className="flex items-center gap-4 text-xl text-[#2E3E5C] font-medium tracking-[1px]">
+            <div className="flex items-center gap-4 text-sm md:text-xl text-[#2E3E5C] font-medium tracking-[1px]">
               <StartIcon /> 5.0 (3.1K Reviews)
             </div>
-            <EllipseIcon className="absolute -right-12 -bottom-14 -z-10" />
+            <EllipseIcon className="absolute w-14 h-14 md:w-20 md:h-20 -right-8 -bottom-8 md:-right-12 md:-bottom-12 -z-10" />
           </div>
         </div>
         {/* Circle */}

@@ -2,8 +2,9 @@ import { SVGProps } from "react";
 
 const EllipseIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={83}
-    height={83}
+    // width={83}
+    // height={83}
+    viewBox="0 0 83 83"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
