@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className="min-h-[90vh] w-full grid grid-cols-1 lg:grid-cols-8 2xl:py-24">
       {/* Information */}
-      <div className="md:col-span-5 flex items-center justify-center px-4 py-8 md:px-8 md:py-0 2xl:pl-28 2xl:pr-0 2xl:pb-0 2xl:pt-0">
+      <div className="md:col-span-5 flex items-center justify-center px-4 py-8 md:px-8 md:py-0 lg:pl-20 2xl:pl-28 lg:pr-0 lg:pb-0 lg:pt-0">
         <div className="flex flex-col gap-4 2xl:gap-4">
           <h1 className="text-[#1E1F4B] text-5xl leading-[3rem] 2xl:text-8xl 2xl:leading-[10rem] font-bold mb-5">
             Web Design Impactful Digital
