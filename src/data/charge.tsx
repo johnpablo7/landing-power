@@ -3,7 +3,7 @@ import DesignIcon from "../Svg/DesignIcon";
 import MonitorIcon from "../Svg/MonitorIcon";
 import PhoneIcon from "../Svg/PhoneIcon";
 
-export const service = [
+export const charge = [
   {
     id: 1,
     title: "UI/UX Design",

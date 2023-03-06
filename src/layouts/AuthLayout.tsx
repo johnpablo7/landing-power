@@ -4,6 +4,7 @@ import { Clients } from "../components/shared/Clients";
 import { Works } from "../components/shared/Works";
 import { Review } from "../components/shared/Review";
 import { Service } from "../components/shared/Service";
+import { Footer } from "../components/shared/Footer";
 
 export const AuthLayout = () => {
   return (
@@ -14,6 +15,7 @@ export const AuthLayout = () => {
       <Works />
       <Review />
       <Service />
+      <Footer />
     </div>
   );
 };

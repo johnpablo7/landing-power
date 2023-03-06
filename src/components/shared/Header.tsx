@@ -14,10 +14,10 @@ export const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between md:justify-start w-full p-4 2xl:py-4 2xl:px-2 h-[10vh] z-50">
+    <header className="flex items-center justify-between md:justify-start w-full p-4 2xl:py-8 2xl:px-2 h-[10vh] z-50">
       <div className="md:w-1/6 flex items-center justify-center">
         <NavLink to="/" className="cursor-pointer">
-          <LogoIcon />
+          <LogoIcon className="text-[#1E1F4B] fill-current w-24 h-10" />
         </NavLink>
       </div>
 

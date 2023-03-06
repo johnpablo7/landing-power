@@ -4,7 +4,7 @@ import QuoteRightIcon from "../../Svg/QuoteRightIcon";
 
 export const Review = () => {
   return (
-    <div className="bg-slate-50 px-4 py-16 lg:px-28 lg:py-16">
+    <div className="bg-slate-50 px-4 py-16 md:px-8 lg:px-28 lg:py-16">
       <h1 className="text-[#03014C] text-4xl lg:text-[40px] text-center font-black mb-8 2xl:mb-8">
         Let’s Hear <br /> What They Says
       </h1>
