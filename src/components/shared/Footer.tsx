@@ -42,7 +42,7 @@ export const Footer = () => {
         </nav>
       </div>
       <div>
-        <h3 className="text-white text-center md:text-left text-lg font-bold my-8 md:mb-5">
+        <h3 className="text-white text-center md:text-left text-lg font-bold my-8 md:mb-5 lg:mt-14 lg:mb-6">
           Company
         </h3>
         <nav className="flex flex-col md:flex-row items-center justify-between mb-12 lg:mb-16 text-white gap-6">
@@ -66,13 +66,13 @@ export const Footer = () => {
           </div>
           <button
             type="submit"
-            className="text-base md:text-sm text-white px-10 py-2 bg-primary hover:bg-[#5453ac] rounded-xl"
+            className="text-base md:text-sm text-white px-10 py-2 md:py-3 bg-primary hover:bg-[#5453ac] rounded-xl"
           >
             Contact Us
           </button>
         </nav>
 
-        <p className="text-center text-white">
+        <p className="text-center text-white opacity-70">
           © Landing Power 2023 - All Rights Reserved
         </p>
       </div>
